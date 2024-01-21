@@ -1,0 +1,38 @@
+[
+    {
+        "company":"DXC Technology",
+        "start":"1st Aug 2023",
+        "end":"18th Sept. 2023",
+        "jobrole":"Project Management Trainee",
+        "work":[
+            "Familiarity with Amazon Web Services (AWS)." ,
+            "Proficiency in Microsoft Excel and M.S PowerPoint.", 
+            "Utilized Gantt charts to visualize project schedules.",
+            "Created detailed project reports providing Stakeholders with insightful updates on project progress"
+        ]
+    },
+    {
+        "company":"Future Finders",
+        "start":"7th Jan 2023",
+        "end":"12th Jylu 2023",
+        "jobrole":"Web Development Intern",
+        "work":[
+            "Designed and implemented a web application for food ordering.",
+            "Utilized HTML, CSS, and JavaScript to create interactive frontend elements.",
+            "Integrated PHP for backend functionality, allowing users to place orders and manage their profiles securely.",
+            "Assisted in bug fixing, testing (manual), and troubleshooting to ensure the website's smooth performance.",
+            "Actively participated in team meetings, sharing ideas and insights to improve the website's functionality and design."
+        ]
+    },
+    {
+        "company":"Solitaire Infosys",
+        "start":"12th June 2022",
+        "end":"18th July 2022",
+        "jobrole":"Android Development (Summer Trainee)",
+        "work":[
+            "Mastering the Android Activity lifecycle, including onCreate, onStart, onResume, onPause, onStop, and onDestroy, is crucial for effective UI management.",
+            "Implementing the RecyclerView and understanding the Adapter pattern is essential for creating dynamic and efficient lists or grids in Android applications."
+        ]
+    }
+
+]

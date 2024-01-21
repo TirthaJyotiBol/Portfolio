@@ -1,0 +1,34 @@
+[
+    {
+        "id":"react",
+        "name":"react js project"
+    },
+    {
+        "id":"javascript",
+        "name":"javascript project"
+    },
+    {
+        "id":"laravel",
+        "name":"laravel project" 
+    },
+    {
+        "id":"php",
+        "name":"php project"
+    },
+    {
+        "id":"java",
+        "name":"java and dsa"
+    },
+    {
+        "id":"android",
+        "name":"android project" 
+    },
+    {
+        "id":"native",
+        "name":"react native" 
+    },
+    {
+        "id":"html",
+        "name":"HTML CSS" 
+    }
+]

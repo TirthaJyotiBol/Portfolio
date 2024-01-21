@@ -1,0 +1,95 @@
+{
+    "javascript":[
+        
+        {
+            "name":"movie website",
+            "githubLink":"https://github.com/TirthaJyotiBol/IMDB-Javascript",
+            "hosted":"https://tirthajyotibol.github.io/IMDB-Javascript/"
+        },
+       {
+            "name":"Music Player",
+            "githubLink":"https://github.com/TirthaJyotiBol/Music-System-Coding-Ninjas",
+            "hosted":"NA"
+        },
+        {
+            "name":"Alarm Clock",
+            "githubLink":"https://github.com/TirthaJyotiBol/skill_test1",
+            "hosted":"https://tirthajyotibol.github.io/skill_test1/"
+        },
+        {
+            "name":"Stock Market",
+            "githubLink":"https://github.com/TirthaJyotiBol/Stock-Market-Analysis",
+            "hosted":"NA"
+        }
+    ],
+
+    "html":[
+        {
+            "name":"Coding Ninjas",
+            "githubLink":"https://github.com/TirthaJyotiBol/Coding-Ninja-Clone",
+            "hosted":"NA"
+        }
+    ],
+
+    "laravel":[
+        {
+            "name":"City Website",
+            "githubLink":"https://github.com/TirthaJyotiBol/Silchar_website",
+            "hosted":"NA"
+        }
+    ],
+
+    "php":[
+        {
+            "name":"CNIOR",
+            "githubLink":"https://github.com/TirthaJyotiBol/cnior-final",
+            "hosted":"NA"
+        },
+        {
+            "name":"Covid Tracker",
+            "githubLink":"https://github.com/TirthaJyotiBol/covid-tracker",
+            "hosted":"NA"
+        }
+    ],
+
+
+    "react":[
+       {
+            "name":"Movie Website",
+            "githubLink":"NA",
+            "hosted":"https://symphonious-halva-dccc76.netlify.app/"
+       }
+    ],
+
+    "native":[
+        {
+            "name":"Instagram Clone",
+            "githubLink":"https://github.com/TirthaJyotiBol/instagram",
+            "hosted":"NA"
+        }
+    ],
+
+    "java":[
+        {
+            "name":"DSA",
+            "githubLink":"https://github.com/TirthaJyotiBol/JAVA-",
+            "hosted":"NA"
+        }
+    ],
+
+    "android":[
+       {
+            "name":"Tic Tac Toe",
+            "githubLink":"https://github.com/TirthaJyotiBol/Tik-Tak-Toe",
+            "hosted":"NA"
+        },
+        {
+            "name":"Mini Projects",
+            "githubLink":"https://github.com/TirthaJyotiBol/Android-Development",
+            "hosted":"NA"
+        }
+    ]
+
+
+
+}

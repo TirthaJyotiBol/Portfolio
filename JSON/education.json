@@ -1,0 +1,45 @@
+[
+    {
+        "school":"Chandigarh Engineering College",
+        "percentage":"7.95 CGPA",
+        "degree":"Bachelor of Technology",
+        "specialization":"Electronics and Communication Engineering",
+        "university":"I.K. Gujral Punjab Technical University",
+        "year":"June 2019 - July 2023",
+        "image":"Images/cgc.webp",
+        "url":"https://www.cgc.edu.in/"
+    },
+
+    {
+        "school":"Ramanuj Gupta Junior College",
+        "percentage":"69%",
+        "degree":"Junior College",
+        "specialization":"Science [PCM]",
+        "university":"Assam Higher Secondary Education Council",
+        "year":"April 2017 - May 2019",
+        "image":"Images/rjgc.jpg",
+        "url":"https://www.rgdc.ac.in/"
+    },
+
+    {
+        "school":"South Point School , Silchar",
+        "percentage":"79%",
+        "degree":"High School",
+        "university":"Board of Secondary Education Assam",
+        "specialization":"",
+        "year":"Jan 2005 - July 2017",
+        "image":"Images/sphs.jpg",
+        "url":"https://www.facebook.com/p/South-Point-High-School-100064975843810/"
+    },
+    {
+        "school":"Little Star School ,Tinsukia",
+        "degree":"LKG",
+        "university":"Board of Secondary Education Assam",
+        "specialization":"",
+        "year":"2004-2005",
+        "image":"Images/littlestar.jpg",
+        "percentage":"",
+        "url":"http://www.littlestarsdigboi.com/"
+    }
+
+]

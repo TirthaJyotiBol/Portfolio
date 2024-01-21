@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirtha</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+
+<section>
+<body>
+
+    <nav id="nav-bar">
+        <div id="lhs-navbar">
+            <p id="nav-bar-name">
+                Portfolio.
+            </p>
+        </div>
+
+        <div id="nav-bar-elements">
+            <p id="home-nav-bar" class="aqua-colour-dark-mode" onclick="moveToTop()">Home</p>
+            <p id="contact-nav-bar" class="aqua-colour-dark-mode" onclick="moveToWorkExperiance()">Experiance</p>
+            <p id="projects-nav-bar" class="aqua-colour-dark-mode" onclick="moveToProjects()">Projects</p>
+            <p id="about-nav-bar" class="aqua-colour-dark-mode" onclick="moveToEducation()">Education</p>
+            <p id="contact-nav-bar" class="aqua-colour-dark-mode" onclick="moveToContacts()">Contacts</p>
+        </div>
+
+        <div id="toggle-mode-container">
+            <i class="fa-regular fa-moon"></i>
+        </div>
+
+    </nav>
+
+    <div class="banner-details">
+        <div class="left-part-banner">
+            <h2 class="banner-heading typing-animation">
+                Hi, I am Tirtha Jyoti Bol
+            </h2>
+            <p id="job-role" class="aqua-colour-dark-mode">
+                Software Developer
+            </p>
+            <p id="my-details">
+                In 2023, I successfully obtained a BTech in ECE with a commendable 7.95 CGPA. 
+                My proficiency extends to website and Android development, coupled with strong skills in data structures 
+                and algorithms. I am committed to continuous learning and driven by a genuine passion for coding.
+            </p>
+            <button id="contacts" onclick="moveToContacts()">
+                contact
+            </button>
+            <button id="email-banner" onclick="redirectToEmail()">
+                Email
+            </button>
+            <button id="download-resume" onclick="displayResume()">
+                resume
+               <i class="fa-solid fa-down-long"></i>
+           </button>
+        </div>
+        <div class="right-part-banner">
+            <img src="Images/profile.png" alt="" id="profile-image">
+        </div>
+    </div>
+
+
+    <h1 id="work-experiance-heading" data-aos="fade-up">
+            work experience
+    </h1>
+
+    <div class="work-experiance-container">
+    
+    </div>
+
+    <h1 class="project-heading" data-aos="fade-up">
+        my projects
+    </h1>
+
+    <!-- diaplays all the project structure -->
+    <div class="projects-container" data-aos="fade-up"></div>
+
+
+    <div class="projects-on-click"></div>
+
+    <div class="displayProjects">  
+        <h1 id="project-heading"></h1>
+        <div class="display-project-container" id="project-container-to-display"></div>
+    </div>
+
+    <h1 class="educationHeading">
+        education
+    </h1>
+
+    <div class="educationContainer" >
+        <i class="fa-solid fa-school lhsicon"></i>
+    </div>
+
+    <hr id="line-above-footer">
+
+    <div class="footer">
+
+        <div class="contacts">
+            <div class="whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+                +91 6003010876
+            </div>
+            <div class="email-footer">
+                <i class="fa-solid fa-envelope"></i>
+                tirthajyoti555@gmail.com
+            </div>
+        </div>
+
+        <h3>coding profiles</h3>
+        <div id="coding-profiles">
+            <li id="leetcode">
+                <a href="https://leetcode.com/TirthaBol555/">
+                    <img src="Images/leetcode.webp" alt="">
+                </a>
+            </li>
+
+            <li id="hackerrank">
+                <a href="https://www.hackerrank.com/profile/tjstyles555">
+                    <img src="Images/hackerrank.png" alt="">
+                </a>
+            </li>
+
+            <li id="gfg">
+                <a href="https://auth.geeksforgeeks.org/user/tirtha1902568">
+                    <img src="Images/gfg.jpeg" alt="">
+                </a>
+            </li>
+
+            <li id="coding-ninjas">
+                <a href="https://www.codingninjas.com/studio/profile/a95f75bc-a02c-4f4f-815a-409095e46936">
+                    <img src="Images/cn.jpg" alt="">
+                </a>
+            </li>
+            
+        </div>
+
+        <!-- Social media  -->
+        <h3 id="sociam-media-profiles-heading">
+            social media profiles
+        </h3>
+        <ul id="list-socialmedia">
+            <li>
+                <a href="">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+<script src="Javascript/index.js"></script>
+</section>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>
