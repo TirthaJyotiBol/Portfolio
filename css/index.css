@@ -259,6 +259,10 @@ body{
 
 /* work experiance box */
 
+.work-experiance-container{
+    display: flex;
+}
+
 .work-experiance-box{
     height: 45vh;
     width: 50%;

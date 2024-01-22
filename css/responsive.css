@@ -1,3 +1,22 @@
+@media only screen and (max-width: 1440px){
+    .banner-details {
+        height: 54vh;
+        width: 90vw;
+        margin: auto;
+        margin-bottom: 5vh;
+        display: flex;
+    }
+
+    .work-experiance-box {
+        height: max-content;
+        padding-bottom: 17px;
+        margin-top: 18vh;
+    }
+    #work-experiance-heading{
+        margin-top: 25vh;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
 
     #nav-bar-elements {
@@ -144,8 +163,8 @@
 
     #profile-image {
         height: 125px;
-        margin-top: 25%;
-        margin-left: 39%;
+        margin-top: 52%;
+        margin-left: 44%;
         border-radius: 48%;
         border: 1px solid white;
     }
@@ -274,8 +293,83 @@
     .display-project-container{
         margin-left: 21%;
     }
+  }
 
 
+  @media only screen and (max-width: 375px){
+    body{
+        margin: 0;
+        padding: 0;
+
+    }
+    #profile-image {
+        height: 142px;
+        margin-top: 59%;
+        margin-left: 17%;
+    }
+
+    .left-part-banner {
+        margin-top: 64%;
+    }
+
+    .myBtn {
+        width: 28% !important;
+        font-size: 10px !important;
+    }
+
+
+    .work-experiance-box {
+        width: 81%;
+        height: max-content;
+        padding: 10px;
+        margin: auto;
+        margin-bottom: 7vh;
+    }
+
+    .work-experiance-box li {
+        line-height: 6vh;
+    }
+
+    .display-project-container {
+        margin-left: 0;
+    }
+
+    .educationBox {
+        width: 93%;
+        height: max-content;
+        padding-bottom: 4ch;
+        margin-left: 10px;
+    }
+
+    h1.college-name-education-box {
+        font-size: 12px;
+        text-align: center;
+        padding-right: 1px;
+    }
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 320px){
+    #profile-image {
+        margin-left: 3%;
+        top: 11% !important;
+    }
+
+    .myBtn {
+        width: 43% !important;
+        font-size: 10px !important;
+    }
+
+    .work-experiance-box li {
+        line-height: 6vh;
+        margin-left: -21px;
+    }
 
 
 

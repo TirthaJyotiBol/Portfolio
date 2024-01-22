@@ -45,6 +45,7 @@ function updateWorkExperiance(){
 
 function createExperianceCard(data){
     let wordExperianceContainer = document.querySelector('.work-experiance-container');
+    let w = document.createElement('div');
     let arr = data.work;
     let card = `
         <div class="work-experiance-box" data-aos="fade-up" data-aos-mirror="true">
