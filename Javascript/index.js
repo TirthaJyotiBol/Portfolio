@@ -47,7 +47,7 @@ function createExperianceCard(data){
     let wordExperianceContainer = document.querySelector('.work-experiance-container');
     let arr = data.work;
     let card = `
-        <div class="work-experiance-box box-exp" data-aos="fade-up" data-aos-mirror="true">
+        <div class="work-experiance-box" data-aos="fade-up" data-aos-mirror="true">
             <div class="heading-company-name">
                 <h1 class="company-name-dark-mode company-name">
                     ${data.company}
@@ -74,7 +74,7 @@ function populateProjectStructure(){
     .then((data)=>{
         data.forEach((curr)=>{
             let card = `
-                <div class="project-box project-box-dark-mode" data-aos="fade-up" id="${curr.id}">
+                <div class="project-box project-box-dark-mode" data-aos="fade-side" id="${curr.id}">
                     <p class="project-stack-type">
                         ${curr.name}
                     </p>
@@ -209,6 +209,7 @@ function toggle() {
     let body = document.querySelector('body');
     let toggle_btn = document.querySelector('.toggle-btn');
     let navBar = document.querySelector('#nav-bar');
+    let navLHS = document.querySelector('#nav-bar-name');
     let navBar_item = document.querySelectorAll('.nav-item');
     let typing_animation = document.querySelector('.typing-animation');
     let banner_job_role = document.querySelector('#job-role');
@@ -218,7 +219,7 @@ function toggle() {
     let email_btn_banner = document.querySelector('#email-banner');
 
     let workExperiance_heading = document.querySelector('#work-experiance-heading');
-    let experiance_box = document.querySelectorAll('.box-exp');
+    let experiance_box = document.querySelectorAll('.work-experiance-box');
 
     let company_name = document.querySelectorAll('.company-name');
     let projectHeading = document.querySelector('.project-heading');
@@ -246,6 +247,8 @@ function toggle() {
     if (lightMode) {
         
         body.style.background = 'white';
+
+        navLHS.style.color = 'orangered';
 
         toggle_btn.classList.remove('fa-solid');
         toggle_btn.classList.remove('fa-sun');
@@ -277,8 +280,8 @@ function toggle() {
         workExperiance_heading.style.color = 'black';
 
         experiance_box.forEach((curr)=>{
-            curr.classList.remove('work-experiance-box');
-            curr.classList.add('work-experiance-light-box');
+            curr.classList.remove('work-experiance-box-dark-mode');
+            curr.classList.add('work-experiance-box-light-mode');
         });
 
         company_name.forEach((curr)=>{
@@ -334,7 +337,7 @@ function toggle() {
 
     else {
         
-            
+        navLHS.style.color = 'white';    
         body.style.background = 'rgb(3, 3, 26)';
 
         toggle_btn.classList.add('fa-solid');
@@ -361,14 +364,15 @@ function toggle() {
             curr.classList.add('banner-btn-dark-mode');
         })
         
+
         email_btn_banner.style.background = 'white';
         email_btn_banner.style.color = 'black';
 
         workExperiance_heading.style.color = 'aqua';
 
         experiance_box.forEach((curr)=>{
-            curr.classList.add('work-experiance-box');
-            curr.classList.remove('work-experiance-light-box');
+            curr.classList.remove('work-experiance-box-light-mode');
+            curr.classList.add('work-experiance-box-dark-mode');
         });
 
         company_name.forEach((curr)=>{

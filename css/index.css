@@ -127,7 +127,7 @@ body{
 
 #profile-image{
     /* opacity: 75%; */
-    height: 90%;
+    height: 455px;
     margin-left: 15%;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -195,8 +195,8 @@ body{
     margin-right: 15px;
 }
 
-#email-banner:hover{
-    background: rgba(44, 46, 46, 0.548);
+.banner-btn:hover{
+    border-color: white;
 }
 
 #download-resume:hover{
@@ -210,6 +210,44 @@ body{
 }
 
 
+.banner-btn-dark-mode,.banner-btn{
+    padding: 18px;
+    background: transparent;
+    /* border: 1px solid white; */
+    border: 3px solid aqua;
+    /* color: aqua; */
+    color: white;
+    font-size: 1rem;
+    width: 180px; 
+    transition: 0.8s ease-in-out;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.banner-btn-dark-mode:hover{
+    border: 3px solid white;
+}
+
+
+.banner-btn-light-mode{
+    padding: 18px;
+    background: transparent;
+    border: 3px solid orangered;
+    color: black;
+    font-size: 1rem;
+    width: 180px; 
+    transition: 0.8s ease-in-out;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.banner-btn-light-mode:hover{
+    box-shadow: 0 0 15px orangered;
+}
+
+
 /* work experiance */
 #work-experiance-heading,.project-heading{
     color: white;
@@ -220,37 +258,41 @@ body{
 
 
 /* work experiance box */
+
 .work-experiance-box{
     height: 45vh;
-    width: 40vw;
+    width: 50%;
     margin: auto;
     margin-bottom: 5%;
     box-shadow: 0 0 10px aqua;
+    color: white; 
+    border-radius: 15px;
+}
+.work-experiance-box-dark-mode{
+    box-shadow: 0 0 10px rgb(238, 255, 0);
     color: white;
-   
 }
 
-.work-experiance-light-box{
-    height: 45vh;
-    width: 40vw;
-    margin: auto;
-    margin-bottom: 5%;
+.work-experiance-box-light-mode{
     box-shadow: 0 0 10px rgb(0, 0, 0);
     color: rgb(0, 0, 0);
 }
 
-.box-exp{
-    /* border: 1px solid transparent; */
-    border-radius: 15px;
-}
-
-
-.work-experiance-box:nth-child(even){
+.work-experiance-box-dark-mode:nth-child(even){
     box-shadow: 0 0 10px rgb(231, 231, 231);
 }
 
-.work-experiance-light-box:nth-child(odd){
+.work-experiance-box-dark-mode:nth-child(odd){
+    box-shadow: 0 0 10px aqua;
+}
+
+
+.work-experiance-box-light-mode:nth-child(odd){
     box-shadow: 0 0 10px orangered;
+}
+
+.work-experiance-box-light-mode:nth-child(even){
+    box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 .heading-company-name{
@@ -291,6 +333,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: aliceblue;
 }
 
 .list-of-work-done li{
@@ -471,7 +514,7 @@ body{
 
 .educationBox{
     display: flex;
-    height: 45vh;
+    height: 50vh;
     width: 45vw;
     margin: 60px;
     margin-bottom: 5%;
@@ -489,33 +532,13 @@ body{
 }
 
 .educationBox-dark-mode{
-    display: flex;
-    height: 45vh;
-    width: 45vw;
-    margin: 60px;
-    margin-bottom: 5%;
     box-shadow: 0 0 10px aqua;
     color: white;
-    transition: none;
-    cursor: pointer;
-    border-radius: 25px;
-    margin-left: 10%;
-    position: static;
 }
 
 .educationBox-light-mode{
-    display: flex;
-    height: 45vh;
-    width: 45vw;
-    margin: 60px;
-    margin-bottom: 5%;
     box-shadow: 0 0 10px orangered;
     color: rgb(0, 0, 0);
-    transition: none;
-    cursor: pointer;
-    border-radius: 25px;
-    margin-left: 10%;
-    position: static;
 }
 
 .educationBox-dark-mode:hover{
@@ -550,6 +573,7 @@ body{
 
 .college-name-education-box{
     text-transform: uppercase;
+    font-size: 18px;
 }
 
 
@@ -724,35 +748,3 @@ body{
 .fa-sun:hover{
     color: rgb(185, 123, 123);
 }
-
-.banner-btn-dark-mode{
-    padding: 18px;
-    background: transparent;
-    /* border: 1px solid white; */
-    border: 3px solid aqua;
-    /* color: aqua; */
-    color: white;
-    font-size: 1rem;
-    width: 180px; 
-    transition: 0.8s ease-in-out;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: 15px;
-}
-
-.banner-btn-light-mode{
-    padding: 18px;
-    background: transparent;
-    /* border: 1px solid white; */
-    border: 3px solid orangered;
-    /* color: aqua; */
-    color: black;
-    font-size: 1rem;
-    width: 180px; 
-    transition: 0.8s ease-in-out;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: 15px;
-}
-
-
