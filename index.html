@@ -14,21 +14,21 @@
 
     <nav id="nav-bar">
         <div id="lhs-navbar">
-            <p id="nav-bar-name">
+            <p id="nav-bar-name" class="nav-item">
                 Portfolio.
             </p>
         </div>
 
         <div id="nav-bar-elements">
-            <p id="home-nav-bar" class="aqua-colour-dark-mode" onclick="moveToTop()">Home</p>
-            <p id="contact-nav-bar" class="aqua-colour-dark-mode" onclick="moveToWorkExperiance()">Experiance</p>
-            <p id="projects-nav-bar" class="aqua-colour-dark-mode" onclick="moveToProjects()">Projects</p>
-            <p id="about-nav-bar" class="aqua-colour-dark-mode" onclick="moveToEducation()">Education</p>
-            <p id="contact-nav-bar" class="aqua-colour-dark-mode" onclick="moveToContacts()">Contacts</p>
+            <p id="home-nav-bar" class="aqua-colour-dark-mode nav-item" onclick="moveToTop()">Home</p>
+            <p id="contact-nav-bar" class="aqua-colour-dark-mode nav-item" onclick="moveToWorkExperiance()">Experiance</p>
+            <p id="projects-nav-bar" class="aqua-colour-dark-mode nav-item" onclick="moveToProjects()">Projects</p>
+            <p id="about-nav-bar" class="aqua-colour-dark-mode nav-item" onclick="moveToEducation()">Education</p>
+            <p id="contact-nav-bar" class="aqua-colour-dark-mode nav-item" onclick="moveToContacts()">Contacts</p>
         </div>
 
         <div id="toggle-mode-container">
-            <i class="fa-regular fa-moon"></i>
+            <i class="fa-solid fa-sun toggle-btn" onclick="toggle()"></i>
         </div>
 
     </nav>
@@ -46,13 +46,13 @@
                 My proficiency extends to website and Android development, coupled with strong skills in data structures 
                 and algorithms. I am committed to continuous learning and driven by a genuine passion for coding.
             </p>
-            <button id="contacts" onclick="moveToContacts()">
+            <button class="banner-btn-dark-mode banner-btn" onclick="moveToContacts()">
                 contact
             </button>
             <button id="email-banner" onclick="redirectToEmail()">
                 Email
             </button>
-            <button id="download-resume" onclick="displayResume()">
+            <button class="banner-btn-dark-mode banner-btn"onclick="displayResume()">
                 resume
                <i class="fa-solid fa-down-long"></i>
            </button>
@@ -143,22 +143,22 @@
         </h3>
         <ul id="list-socialmedia">
             <li>
-                <a href="">
+                <a href="https://www.linkedin.com/in/tirtha-jyoti-bol-6422591b7/">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="https://github.com/TirthaJyotiBol">
                     <i class="fa-brands fa-github"></i>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="https://www.instagram.com/tirtha_555/">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="https://www.facebook.com/tj.styles.925">
                     <i class="fa-brands fa-facebook"></i>
                 </a>
             </li>
@@ -168,6 +168,7 @@
 </body>
 
 <script src="Javascript/index.js"></script>
+<script  src="Javascript/modes.js"></script>
 </section>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

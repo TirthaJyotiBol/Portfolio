@@ -47,9 +47,9 @@ function createExperianceCard(data){
     let wordExperianceContainer = document.querySelector('.work-experiance-container');
     let arr = data.work;
     let card = `
-        <div class="work-experiance-box" data-aos="fade-up" data-aos-mirror="true">
+        <div class="work-experiance-box box-exp" data-aos="fade-up" data-aos-mirror="true">
             <div class="heading-company-name">
-                <h1 class="company-name">
+                <h1 class="company-name-dark-mode company-name">
                     ${data.company}
                 </h1>
                 <p class="date-company-worked">
@@ -74,7 +74,7 @@ function populateProjectStructure(){
     .then((data)=>{
         data.forEach((curr)=>{
             let card = `
-                <div class="project-box" data-aos="fade-up" id="${curr.id}">
+                <div class="project-box project-box-dark-mode" data-aos="fade-up" id="${curr.id}">
                     <p class="project-stack-type">
                         ${curr.name}
                     </p>
@@ -104,6 +104,8 @@ function showMyProjects(cardElement){
         let projects = document.querySelector('.displayProjects');
         projects.style.display ='block';
 
+        
+
         container.innerHTML = '';
         projectHeading.textContent = cardElement.id+" projects";
 
@@ -115,14 +117,13 @@ function showMyProjects(cardElement){
         .then((data)=>{
             data = data[cardElement.id]
             data.forEach((curr)=>{
-                console.log(curr);
 
                 let card = `
-                    <div class="project-display-box" data-aos="fade-up">
+                    <div class="project-display-box-dark-mode project-display-box" data-aos="fade-up">
                         <p class="project-display-name">
                             ${curr.name}
                         </p>
-                        <div class="links">
+                        <div class="links links-dark-mode">
                             <a href="${curr.githubLink}" target="_blank" id="github${curr.name}" class="githubLink">Github</a>
                             ${curr.hosted && curr.hosted !== 'NA' ? 
                                 `<a href="${curr.hosted}" target="_blank" id="hosted${curr.name}" class="hostedLink">Hosted</a>` : ''}

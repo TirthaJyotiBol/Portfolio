@@ -26,19 +26,15 @@
     background-color: aqua;
 }
 
-.aqua-colour-dark-mode{
-    color: aqua;
-}
-
-.orange-color-light-mode{
-    color: orangered;
-}
-
 
 
 body{
     background-color: rgb(3 3 26);
 }
+*{
+    transition: 0.8s ease-in-out;
+}
+
 #nav-bar{
     color: white;
     height: 10vh;
@@ -47,6 +43,7 @@ body{
     position: sticky;
     top: 0;
     background-color: rgb(3 3 26);
+    /* background-color: transparent; */
     z-index: 1;
 }
 
@@ -114,12 +111,14 @@ body{
 }
 
 #profile-image{
-    opacity: 75%;
+    /* opacity: 75%; */
     height: 90%;
     margin-left: 15%;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-    box-shadow: 0 0 20px 10px rgba(3, 3, 26, 0.7);
+    border-radius: 20%;
+    border: 1px solid transparent;
+    /* box-shadow: 0 0 20px 10px rgba(3, 3, 26, 0.7); */
     /* border-radius: 40%; */
 }
 
@@ -170,8 +169,6 @@ body{
 
 #contacts:hover{
     border: 3px solid white;
-    /* background: rgb(255, 255, 255); */
-    /* color: rgb(255, 255, 255); */
 }
 
 #email-banner{
@@ -180,10 +177,11 @@ body{
     border:none;
     background: rgb(248, 252, 252);
     font-weight: 900;
+    margin-right: 15px;
 }
 
 #email-banner:hover{
-    background: rgba(254, 255, 255, 0.548);
+    background: rgba(44, 46, 46, 0.548);
 }
 
 #download-resume:hover{
@@ -214,10 +212,30 @@ body{
     margin-bottom: 5%;
     box-shadow: 0 0 10px aqua;
     color: white;
+   
 }
+
+.work-experiance-light-box{
+    height: 45vh;
+    width: 40vw;
+    margin: auto;
+    margin-bottom: 5%;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.box-exp{
+    /* border: 1px solid transparent; */
+    border-radius: 15px;
+}
+
 
 .work-experiance-box:nth-child(even){
     box-shadow: 0 0 10px rgb(231, 231, 231);
+}
+
+.work-experiance-light-box:nth-child(odd){
+    box-shadow: 0 0 10px orangered;
 }
 
 .heading-company-name{
@@ -226,10 +244,17 @@ body{
     justify-content:space-between;
 }
 
-.company-name{
+.company-name-dark-mode{
     margin-left: 15px;
     font-size: 2rem;
     color: aqua;
+}
+
+.company-name-light-mode{
+    margin-left: 15px;
+    font-size: 2rem;
+    color: orangered;
+
 }
 
 .date-company-worked{
@@ -274,7 +299,7 @@ body{
     justify-content: space-evenly;
 }
 
-.project-box{
+.project-box-dark-mode{
     height: 40vh;
     width: 220px;
     background: transparent;
@@ -285,7 +310,19 @@ body{
     border-radius: 25px;
 }
 
-.project-box p{
+.project-box-light-mode{
+    height: 40vh;
+    width: 220px;
+    background: transparent;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+    margin: 50px;
+    box-shadow: 0 0 10px rgb(163, 46, 3);
+    border-radius: 25px;
+}
+
+
+.project-box-dark-mode p{
     text-align: center;
     text-transform: uppercase;
     color: white;
@@ -294,14 +331,33 @@ body{
     transition: 0.6s ease-in-out;
 }
 
-.project-box:hover{
+.project-box-light-mode p{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 50%;
+    transition: 0.6s ease-in-out;
+}
+
+.project-box-dark-mode:hover{
     box-shadow: 0 0 10px rgb(162, 163, 163);
     background-color: rgba(4, 4, 39, 0.603);
 }
 
-.project-box:hover .project-stack-type{
+.project-box-dark-mode:hover .project-stack-type{
     color: aqua;
 }
+
+.project-box-light-mode:hover{
+    box-shadow: 0 0 10px rgb(255, 83, 16);
+    background-color: rgba(255, 0, 0, 0.26);
+}
+
+.project-box-light-mode:hover .project-stack-type{
+    color: rgb(255, 255, 255);
+}
+
 
 .display-project-container{
     display: flex;
@@ -312,7 +368,19 @@ body{
     /* width: 80%; */
 }
 
-.project-display-box{
+.project-display-box-light-mode{
+    height: 28vh;
+    width: 19vw;
+    background: transparent;
+    transition: 0.6s ease-in-out;
+    margin: 28px;
+    border: 2px solid orangered;   
+    color: black;
+    padding: 15px;
+    box-shadow: 0 0 10px orangered;
+}
+
+.project-display-box-dark-mode{
     height: 28vh;
     width: 19vw;
     background: transparent;
@@ -320,10 +388,10 @@ body{
     margin: 28px;
     border: 2px solid aqua;   
     color: aqua;
-    /* border-radius: 50%; */
     padding: 15px;
     box-shadow: 0 0 10px aqua;
 }
+
 
 .project-display-box p{
     text-align: center;
@@ -338,20 +406,34 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* align-items: center;
-    justify-content: center; */
 }
 
-.links a{
+.links-dark-mode a{
     text-decoration: none;
     font-size: 20px;
     color: rgb(248, 248, 248);
     text-transform: uppercase;
 }
 
-.links a:hover{
+.links-dark-mode a:hover{
     color: rgb(45, 213, 255);
 }
+
+
+
+.links-light-mode a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 5, 5);
+    text-transform: uppercase;
+    transition: none;
+}
+
+.links-light-mode a:hover{
+    color: rgb(0, 17, 255);
+}
+
+
 
 /* Education */
 
@@ -536,3 +618,65 @@ body{
 .aqua-colour-dark-mode.active {
     color: red; 
 }
+
+.toggle-btn{
+    transition: 0.8s ease-in-out;
+}
+
+.aqua-colour-dark-mode{
+    color: aqua;
+}
+
+.black-color-light-mode{
+    color: black;
+}
+
+.orange-color-light-mode{
+    color: orangered;
+}
+
+.fa-moon{
+    color: rgb(0, 12, 78);
+}
+.fa-moon:hover{
+    color: rgb(255, 102, 0);
+}
+
+.fa-sun{
+    color: white;
+}
+.fa-sun:hover{
+    color: rgb(185, 123, 123);
+}
+
+.banner-btn-dark-mode{
+    padding: 18px;
+    background: transparent;
+    /* border: 1px solid white; */
+    border: 3px solid aqua;
+    /* color: aqua; */
+    color: white;
+    font-size: 1rem;
+    width: 180px; 
+    transition: 0.8s ease-in-out;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.banner-btn-light-mode{
+    padding: 18px;
+    background: transparent;
+    /* border: 1px solid white; */
+    border: 3px solid orangered;
+    /* color: aqua; */
+    color: black;
+    font-size: 1rem;
+    width: 180px; 
+    transition: 0.8s ease-in-out;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+
