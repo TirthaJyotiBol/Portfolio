@@ -1,3 +1,18 @@
+@media all and(width>=2560px){
+    #work-experiance-heading{
+        margin-top: 0;
+    }
+    .banner-details {
+        height: max-content !important;
+        padding-bottom: 40px;
+        margin: auto;
+        margin-top: 7px;
+        display: flex;
+    }
+
+
+}
+
 @media only screen and (max-width: 1440px){
     .banner-details {
         height: 54vh;
@@ -13,8 +28,30 @@
         margin-top: 18vh;
     }
     #work-experiance-heading{
-        margin-top: 25vh;
+        margin-top: 0vh;
     }
+    .project-box {
+        height: 289px;
+    }
+    .project-display-box {
+        height: 180px !important;
+    }
+
+    .educationBox {
+        height: 353px;
+        width: 952px;
+    }
+
+    .rhs-education-box ul li{
+        font-size: 19px;
+    } 
+
+    .college-name-education-box {
+        font-size: 2rem;
+    }
+    
+    
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -43,6 +80,10 @@
         margin-bottom: 40px;
     }
 
+    #work-experiance-heading {
+        margin-top: 0vh;
+    }
+
     .banner-details {
         height: 74vh;
     }
@@ -54,13 +95,27 @@
     }
 
     .educationBox {
-        width: 72%;
+        height: 391px;
+        width: 693px;
     }
 
-    .work-experiance-box{
-        width: 60%;
+    .work-experiance-box {
+        width: 679px;
+        font-size: 1.3rem;
+        height: 280px;
+        line-height: 33px;
     }
+
   }
+
+    /* Extra responsiveness */
+
+    @media all and(max-width:1016px){
+        #work-experiance-heading {
+            margin-top: 0;
+        }
+        
+      }
 
 
   /* Tablet */
@@ -105,9 +160,8 @@
         margin-bottom: 18px;
         border-radius: 15px;
     }
-
     .banner-details {
-        height: 90vh;
+        height: 64vh;
     }
 
     h1#work-experiance-heading {
@@ -117,6 +171,8 @@
     .work-experiance-box {
         width: 71%;
         height: 52vh;
+        margin: auto;
+        margin-top: 80px;
     }
 
     h1.project-heading {
@@ -128,13 +184,22 @@
     }
 
     .educationBox {
-        width: 74%;
+        width: 600px;
+        padding-left: 2px;
+    }
+    .college-name-education-box {
+        font-size: 1.5rem;
     }
 
     .educationContainer {
-        border-left: 4px solid rgb(50, 224, 255);
+        /* border-left: 4px solid rgb(50, 224, 255); */
         border-radius: 4px;
         margin-left: 3%;
+    }
+
+    .educationBox ul li p {
+        transition: none;
+        font-size: 1.1rem;
     }
 
     .project-display-box {
@@ -205,16 +270,38 @@
         font-size: 16px !important;
     }
 
-    .work-experiance-box {
+    /* .work-experiance-box {
         width: 100%;
         height: 292px;
         margin-left: 12px;
         margin-bottom: 44px;
+    } */
+
+    .work-experiance-box {
+        width: 86vw;
+        margin-left: 26px;
+        height: 250px;
+    }
+
+    .heading-company-name {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: 1rem;
     }
 
     .company-name {
         margin-left: 15px;
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .work-experiance-box  li {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .date-company-worked {
+        font-size: 10px;
     }
 
     .projects-container {
@@ -222,6 +309,8 @@
         height: max-content;
         margin-left: 50px;
     }
+
+
     
     /* .project-box {
         margin: 13px;
@@ -243,13 +332,22 @@
         font-size: 2rem;
     }
 
-    .project-display-box {
+    /* .project-display-box {
         width: 300px;
         height: 141px;
+    } */
+
+    .project-display-box {
+        width: 172px;
+        height: 177px !important;
     }
 
     .projects-container {
         margin-left: -2%;
+    }
+
+    .display-project-container {
+        margin-left: 0;
     }
 
     h1.educationHeading {
@@ -268,6 +366,8 @@
     .educationBox {
         width: 397px;
         margin-left: 2px;
+        height: 237px;
+
     }
 
     /* .educationBox {
@@ -287,12 +387,10 @@
 
     .rhs-education-box li {
         margin-left: -31px;
-        font-size: 10px;
+        font-size: 6px;
+        line-height: 17px;
     }
 
-    .display-project-container{
-        margin-left: 21%;
-    }
   }
 
 
@@ -317,7 +415,9 @@
         font-size: 10px !important;
     }
 
-
+    #work-experiance-heading{
+        margin-top: 2px;
+    }
     .work-experiance-box {
         width: 81%;
         height: max-content;
@@ -371,6 +471,37 @@
         margin-left: -21px;
     }
 
+    .work-experiance-box{
+        width: 288px !important;
+        margin-left: 6px;
+    }
+    .project-display-box {
+        width: 118px;
+        height: 125px !important;
+    }
+
+    .project-display-box p {
+        font-size: 15px;
+    }
+
+    .links a {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    .educationBox ul li p {
+        transition: none;
+        font-size: 10px;
+    }
+
+    h1.college-name-education-box {
+        font-size: 10px;
+        text-align: justify;
+    }
+    
+    
 
 
   }
+
+
