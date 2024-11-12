@@ -1,36 +1,18 @@
 [
     {
-        "company":"DXC Technology",
-        "start":"1st Aug 2023",
-        "end":"18th Sept. 2023",
-        "jobrole":"Project Management Trainee",
+        "company":"Value Leaf Services Pvt. Ltd",
+        "start":"19 Feb 2024",
+        "end":"Present",
+        "jobrole":"Software Developer",
         "work":[
-            "Familiarity with Amazon Web Services (AWS)." ,
-            "Proficiency in Microsoft Excel and M.S PowerPoint.", 
-            "Utilized Gantt charts to visualize project schedules.",
-            "Created detailed project reports providing Stakeholders with insightful updates on project progress"
-        ]
-    },
-    {
-        "company":"Future Finders",
-        "start":"7th Jan 2023",
-        "end":"12th Jylu 2023",
-        "jobrole":"Web Development Intern",
-        "work":[
-            "Designed and implemented a web application for food ordering.",
-            "Utilized HTML, CSS, and JavaScript to create interactive frontend elements.",
-            "Integrated PHP for backend functionality, allowing users to place orders and manage their profiles securely."
-        ]
-    },
-    {
-        "company":"Solitaire Infosys",
-        "start":"12th June 2022",
-        "end":"18th July 2022",
-        "jobrole":"Android Development (Summer Trainee)",
-        "work":[
-            "Mastering the Android Activity lifecycle, including onCreate, onStart, onResume, onPause, onStop, and onDestroy, is crucial for effective UI management.",
-            "Implementing the RecyclerView and understanding the Adapter pattern is essential for creating dynamic and efficient lists or grids in Android applications."
+            "Collaborated with SMS, WhatsApp, and RCS APIs to optimize messaging services for users.",
+            "Partnered with RCS-JIO and VI-RBM platforms to facilitate seamless and efficient campaign delivery as Messaging Service",
+            "Contributed across the software development lifecycle, ensuring coding standards and best practices adherence",
+            "Developed and deployed APIs for client integration, enabling automated WhatsApp messaging to enhance user engagement.",
+            "Implemented real-time data filtering using Node.js, enabling efficient filtering by state, city, brand, and group,with query results cached in Redis for optimized response time.",
+            "Developed and optimized dynamic templates for campaign delivery, enhancing operational efficiency and personalization with delivers around 55000+ Campaigns on a daily basis.",
+            "Developed the Whistle-Support Panel for Admin, Super Admin, and internal roles, efficiently displaying and managing over 100000 data entries daily. Implemented advanced filtering and search functionalities to enhance user experience,ensuring smooth and rapid access to critical information",
+            "Developed a user management dashboard to administer master and manager accounts, improving user management and oversight."
         ]
     }
-
 ]
